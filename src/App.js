@@ -105,8 +105,8 @@ const App = () => {
         })
         .catch((error) => {
           console.log(error)
-          const errorCode = error.code;
-          const errorMessage = error.message;
+          // const errorCode = error.code;
+          // const errorMessage = error.message;
           const newUserInfo = { ...user };
           newUserInfo.error = 'something wrong please try again';
           newUserInfo.success = false;
@@ -127,8 +127,8 @@ const App = () => {
           console.log('sign in user info: ', userCredential)
         })
         .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
+          // const errorCode = error.code;
+          // const errorMessage = error.message;
           const newUserInfo = { ...user };
           newUserInfo.error = 'something wrong please try again';
           newUserInfo.success = false;
